@@ -73,7 +73,7 @@ bool CJsonPersistence::writeData(const CWpDatabase& waypointDb,
 	ofs << "  \"pois\": [" << endl;
 	ofs.flush();
 
-	size = poiDb.getSize(); // get the size of the POI database
+	size = poiDb.getSize(); // get the size of the POI databa
 	if(0 == size )
 	{
 		cout<<"The POI database is empty. Nothing to copy"<<endl;
